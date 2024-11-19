@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Inventory/InventoryStyle.uss?fileID=7433441132597879392&amp;guid=a61429b3a469edb498531d616681f413&amp;type=3#InventoryStyle" />
+    <Style src="project://database/Assets/UI/Controls/ControlsStyle.uss?fileID=7433441132597879392&amp;guid=b7c037359719cf44fa236c7c438169a7&amp;type=3#ControlsStyle" />
+    <Style src="project://database/Assets/UI/PanelStyle.uss?fileID=7433441132597879392&amp;guid=a62588719b50c5944b5fdb01d1432455&amp;type=3#PanelStyle" />
+    <ui:VisualElement class="panel" style="flex-grow: 1; -unity-background-image-tint-color: rgb(114, 113, 101); display: flex;">
+        <ui:Label tabindex="-1" text="Controls" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="titles" style="height: 300px; -unity-text-align: middle-center; font-size: 120px;" />
+        <ui:ScrollView name="ScrollView" style="margin-top: 60px; margin-right: 60px; margin-bottom: 30px; margin-left: 60px; flex-grow: 1; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <ui:VisualElement name="Walk" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Controll%20screenshot/walk.png?fileID=2800000&amp;guid=8112229b2de9a57469218e45bf1581c1&amp;type=3#walk&quot;); -unity-background-scale-mode: scale-and-crop; -unity-slice-scale: 1px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; justify-content: flex-end; align-items: flex-start; align-self: center; flex-direction: row;" />
+                <ui:Label tabindex="-1" text="To walk right, press &quot;D&quot;&#10;To walk left, press &quot;A&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(236, 232, 232);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Jump" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Controll%20screenshot/Jump.png?fileID=2800000&amp;guid=2ae07f00c2f57764795eca8f4a99cf4d&amp;type=3#Jump&quot;); -unity-background-scale-mode: scale-and-crop;" />
+                <ui:Label tabindex="-1" text="Press spacebar to jump&#10;Hold spacebar to jump higher&#10;Jump against a wall and jump again&#10;once you hit the wall to perform a wall jump" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(241, 237, 237);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Dash" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Controll%20screenshot/Dash.png?fileID=2800000&amp;guid=3684380dfb3d1774cab06f768540ed43&amp;type=3#Dash&quot;); -unity-background-scale-mode: scale-and-crop;" />
+                <ui:Label tabindex="-1" text="To dash press &quot;ctrl&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(241, 237, 237);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LookAround" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" />
+                <ui:Label tabindex="-1" text="To move the camera up, press &quot;W&quot;&#10;To move the camera down, press &quot;S&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(243, 242, 242);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Attack" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/MainCharacter/Knight2/CycloneSword.png?fileID=2800000&amp;guid=4e423e003e6e87e40baa095417060866&amp;type=3#CycloneSword&quot;);" />
+                <ui:Label tabindex="-1" text="To attack, press left-click or &quot;J&quot;&#10;To attack up, press &quot;W&quot; and leftclick/&quot;J&quot;&#10;To attack down press &quot;S&quot; and leftclick/&quot;J&quot;&#10;If you attack down on a blue flower or enemy, you can boost yourself up. " parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(229, 223, 223);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Heal" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/UI/HealingFlask.png?fileID=2800000&amp;guid=361043d4d18d97e4689906d04c76056c&amp;type=3#HealingFlask&quot;);" />
+                <ui:Label tabindex="-1" text="To drink a heal potion, press &apos;F&apos;." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" enable-rich-text="false" style="color: rgb(229, 223, 223);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PickUp" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Misc/Pickup3.png?fileID=2800000&amp;guid=b6022b34f60502942b93684f07257692&amp;type=3#Pickup3&quot;);" />
+                <ui:Label tabindex="-1" text="To pick up an item from the ground, press &quot;C&apos;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(229, 223, 223);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Inventory" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Charms/Frame.png?fileID=2800000&amp;guid=4ad1df79ebd347e4e98dc2da3cbe202c&amp;type=3#Frame&quot;);" />
+                <ui:Label tabindex="-1" text="To open the inventory, press &quot;I&#10;In the inventory you can select a talisman.&#10;To get a description of what the talisman does, right-click on it. " parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(229, 223, 223);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Rest" class="tutorial" style="flex-grow: 1;">
+                <ui:VisualElement name="Picture" style="background-image: url(&quot;project://database/Assets/Sprite/Checkpoint/Shrine_Dragon.png?fileID=2800000&amp;guid=5bc99956d28bd9445b54cbddc8810538&amp;type=3#Shrine_Dragon&quot;);" />
+                <ui:Label tabindex="-1" text="To rest and regenerate at a Shrine, press &quot;x&quot;." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" style="color: rgb(229, 223, 223);" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

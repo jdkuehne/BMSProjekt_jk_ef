@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StartMenu/StartMenuStyles.uss?fileID=7433441132597879392&amp;guid=5166c08a2a9d2a0449a75bad4f4782ae&amp;type=3#StartMenuStyles" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(55, 55, 55, 0);">
+        <ui:Label tabindex="-1" text="The Valley of Storms" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" style="-unity-text-align: middle-center; font-size: 250px; margin-top: 80px; margin-right: 50px; margin-bottom: 30px; margin-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Lancelot-Regular%20SDF.asset?fileID=11400000&amp;guid=868bcbfe80bff0940a77310612a11552&amp;type=2#Lancelot-Regular SDF&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); color: rgb(255, 255, 255); -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(18, 18, 18); height: 400px;" />
+        <ui:VisualElement style="flex-grow: 0; justify-content: center; height: 1300px; align-items: center;">
+            <ui:Label tabindex="-1" text="Start Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="startgame" class="button" />
+            <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="settings" class="button" />
+            <ui:Label tabindex="-1" text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit" class="button" />
+            <ui:Label tabindex="-1" text="Delete Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="delete" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row-reverse;">
+            <ui:Label tabindex="-1" text="v1.1" parse-escape-sequences="false" display-tooltip-when-elided="true" name="version" style="width: 200px; font-size: 45px; color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Charm-Regular%20SDF.asset?fileID=11400000&amp;guid=6a296c032d374c849b98f6ebad8a53c8&amp;type=2#Charm-Regular SDF&quot;);" />
+            <ui:VisualElement name="logo" style="flex-grow: 0; width: 200px; background-image: url(&quot;project://database/Assets/Sprite/GamersCastleLogo.png?fileID=2800000&amp;guid=4a84e2197d8eb5e4f9af59bca321d112&amp;type=3#GamersCastleLogo&quot;); -unity-background-scale-mode: scale-to-fit; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                <ui:Label tabindex="-1" text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="indicatedel" style="width: 1000px; -unity-text-align: middle-left; font-size: 100px; margin-top: 50px; margin-right: 50px; margin-bottom: 50px; margin-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Lancelot-Regular%20SDF.asset?fileID=11400000&amp;guid=868bcbfe80bff0940a77310612a11552&amp;type=2#Lancelot-Regular SDF&quot;); -unity-font-style: bold; color: rgb(153, 207, 170);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

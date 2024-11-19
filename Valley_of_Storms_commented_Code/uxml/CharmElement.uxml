@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <CharmElement>
+        <ui:VisualElement name="image" class="talismanmain" style="background-image: none; -unity-background-scale-mode: scale-to-fit;">
+            <ui:VisualElement name="badge">
+                <ui:Label name="slots" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </CharmElement>
+</ui:UXML>

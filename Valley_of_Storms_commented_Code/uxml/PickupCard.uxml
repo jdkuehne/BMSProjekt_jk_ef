@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <PickupCard style="margin-top: 5px; margin-right: 0; margin-bottom: 5px; margin-left: 0;">
+        <ui:VisualElement name="PickupRoot" style="flex-grow: 1; flex-direction: row; background-color: rgba(49, 54, 79, 0.8); height: auto;">
+            <ui:VisualElement name="Image" style="flex-grow: 0; width: 250px; -unity-background-scale-mode: scale-to-fit; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label tabindex="-1" text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Description" style="-unity-text-align: middle-center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; flex-grow: 1; font-size: 50px; -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(255, 255, 255); -unity-font-style: bold; flex-wrap: nowrap; text-overflow: clip; white-space: normal; width: auto; height: auto;" />
+                <ui:Label tabindex="-1" text="500" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Number" style="-unity-text-align: middle-center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; font-size: 50px; -unity-font-style: bold; -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(255, 255, 255); width: 120px; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </PickupCard>
+</ui:UXML>

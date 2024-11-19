@@ -1,0 +1,33 @@
+.tutorial {
+    flex-grow: 0;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    background-color: rgba(15, 15, 20, 0.67);
+    height: 500px;
+}
+
+#Picture {
+    flex-grow: 0;
+    min-height: 300px;
+    width: 800px;
+    -unity-background-scale-mode: scale-to-fit;
+    border-color: rgb(80, 80, 70);
+    border-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgb(189, 185, 160);
+    border-right-color: rgb(189, 185, 160);
+    border-top-color: rgb(189, 185, 160);
+    border-bottom-color: rgb(189, 185, 160);
+}
+
+#Text {
+    flex-grow: 1;
+    margin: 30px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Lancelot-Regular%20SDF.asset?fileID=11400000&guid=868bcbfe80bff0940a77310612a11552&type=2#Lancelot-Regular SDF");
+    font-size: 60px;
+}

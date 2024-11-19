@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 0; align-items: stretch; width: 1800px;">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: auto; height: 600px;">
+                    <ui:VisualElement name="HealthBack" style="flex-grow: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; width: 3805px; height: 150px; background-image: url(&quot;project://database/Assets/Sprite/UI/Healthbar9Slice2Back.png?fileID=1157001449&amp;guid=b3790df004b889c49a6bc78eb1ca3d96&amp;type=3#Healthbar9Slice2Back_0&quot;); padding-right: 0; -unity-slice-right: 75; -unity-slice-left: 20; -unity-slice-top: 40; -unity-slice-bottom: 20; justify-content: center; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-slice-scale: 2px; color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="HealthFill" style="flex-grow: 0; height: 140px; padding-right: 0; margin-right: 0; background-image: url(&quot;project://database/Assets/Sprite/UI/Healthbar9Slice2Fill.png?fileID=-963165582&amp;guid=80af514dd053a8a4abc9cca28af5a8b9&amp;type=3#Healthbar9Slice2Fill_0&quot;); background-color: rgba(0, 0, 0, 0); -unity-slice-left: 15; -unity-slice-top: 0; -unity-slice-right: 70; -unity-slice-bottom: 0; width: 3795px; justify-content: flex-start; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-slice-scale: 2px;">
+                            <ui:VisualElement name="HealthFrame" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Sprite/UI/Healthbar9Slice2Frame.png?fileID=1315836658&amp;guid=d34851a9553b6644c974462ff67b3388&amp;type=3#Healthbar9Slice2Frame_0&quot;); height: 140px; -unity-slice-left: 30; -unity-slice-top: 30; -unity-slice-right: 80; -unity-slice-bottom: 30; width: 3805px; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-slice-scale: 2px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 0; width: 350px; height: 350px; background-image: none; -unity-background-scale-mode: scale-to-fit; flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: stretch; margin-top: 30px; margin-right: 30px; margin-bottom: 30px; margin-left: 30px;">
+                        <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprite/UI/HealingFlask.png?fileID=-151249750&amp;guid=361043d4d18d97e4689906d04c76056c&amp;type=3#HealingFlask_0&quot;); -unity-background-scale-mode: scale-to-fit; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 20px; flex-direction: column-reverse; justify-content: space-between; align-items: auto;" />
+                        <ui:VisualElement style="flex-grow: 0; width: 100px; height: 110px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-image: url(&quot;project://database/Assets/Sprite/UI/Label.png?fileID=-2121742331&amp;guid=524bc90ec53759f42a6cee3346d52389&amp;type=3#Label_0&quot;); justify-content: space-around; align-items: center; align-self: flex-end;">
+                            <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NumberHeal" style="-unity-text-align: middle-center; -unity-text-outline-width: 5px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(236, 234, 216); font-size: 70px; -unity-font-style: bold;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; flex-direction: column-reverse;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ItemsWindow" style="flex-direction: column-reverse; flex-wrap: nowrap; align-items: auto; justify-content: flex-start; flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

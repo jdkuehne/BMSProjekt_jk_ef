@@ -1,0 +1,21 @@
+.button {
+    -unity-text-align: middle-center;
+    font-size: 80px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/Fonts/Lancelot-Regular%20SDF.asset?fileID=11400000&guid=868bcbfe80bff0940a77310612a11552&type=2#Lancelot-Regular SDF");
+    color: rgb(255, 255, 255);
+    height: 180px;
+    width: 1000px;
+}
+
+.button:hover {
+    color: rgb(150, 150, 150);
+}

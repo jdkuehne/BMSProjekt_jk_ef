@@ -1,0 +1,25 @@
+.optionsbutton {
+    -unity-text-align: middle-center;
+    height: 200px;
+    font-size: 90px;
+    background-image: url("project://database/Assets/Sprite/UI/ButtonFrame.png?fileID=-811436231&guid=d38bf7d3d0c0f3b4587946d00a1ea230&type=3#ButtonFrame_0");
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(201, 215, 176);
+    -unity-slice-left: 50;
+    -unity-slice-top: 50;
+    -unity-slice-right: 50;
+    -unity-slice-bottom: 50;
+    width: 1000px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -unity-font-style: bold;
+    color: rgb(132, 68, 68);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(61, 60, 57);
+    -unity-font-definition: url("project://database/Assets/Fonts/Lancelot-Regular%20SDF.asset?fileID=11400000&guid=868bcbfe80bff0940a77310612a11552&type=2#Lancelot-Regular SDF");
+}
+
+.optionsbutton:hover{
+    color: rgb(80, 40, 40);
+}

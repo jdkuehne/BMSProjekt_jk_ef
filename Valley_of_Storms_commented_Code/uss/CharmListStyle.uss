@@ -1,0 +1,57 @@
+.talismanmain {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: stretch;
+    align-self: auto;
+    flex-direction: column-reverse;
+    width: 800px;
+    height: 600px;
+    -unity-background-scale-mode: scale-to-fit;
+    padding-right: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.talismanmain:hover{
+    -unity-background-image-tint-color: rgb(150, 150, 150);
+}
+
+#badge {
+    flex-grow: 0;
+    min-width: auto;
+    min-height: auto;
+    width: 100px;
+    align-self: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: rgb(95, 95, 111);
+    border-left-color: rgb(59, 59, 59);
+    border-right-color: rgb(59, 59, 59);
+    border-top-color: rgb(59, 59, 59);
+    border-bottom-color: rgb(59, 59, 59);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#slots {
+    -unity-text-align: middle-center;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: stretch;
+    -unity-font-style: bold;
+    font-size: 50px;
+    color: rgb(249, 249, 249);
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
