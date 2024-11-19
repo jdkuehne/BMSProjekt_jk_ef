@@ -1,2 +1,6 @@
 Kommentierte Scripts der BMA von jk und ef (Valley of Storms, entwickelt in Unity)
-unter: 
+unter: "Valley_of_Storms_commented_Code/cs/0_Erklaert" sind 11 genau beschriebene/kommentierte Files aufzufinden.
+
+Valley_of_Storms_commented_Code/cs => csharp-Files
+Valley_of_Storms_commented_Code/uss => unity style sheet files (UI Toolkit - Erscheinung/Layout)
+Valley_of_Storms_commented_Code/uxml => unity extensible markup language files (UI Toolkit - Struktur)
